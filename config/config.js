@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Benjamin Tan",
   links: [
     {
       title: "About",
@@ -24,12 +24,12 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "https://medium.com/",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
+  title: "Ben here.",
   description: "A Computer Engineer creating mobile apps and static websites.",
   image: profile.src,
   buttons: [
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "",
       isPrimary: false,
     },
   ],
@@ -49,9 +49,7 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "edit here",
   ],
 }
 
@@ -75,7 +73,7 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
+      title: "Project-1",
       description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
       icons: [
         {
@@ -89,7 +87,7 @@ export const projects = {
       ]
     },
     {
-      title: "QuranTalk",
+      title: "Project-2",
       description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
       icons: [
         {
@@ -123,11 +121,6 @@ export const contact = {
       title: "Email Me",
       link: "mailto:hashirshoaeb@gmail.com",
       isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
     },
   ]
 }
